@@ -5,12 +5,13 @@ import reactSvg from './react-svg.svg'
 import Counter from './Counter'
 
 const App = () => {
-  const nameNe1w = "dfdnaveen"
+  const userName = 'Naveen'
+
   return (
     <div>
       <h1>
         Edited New React App with Webpack template -{process.env.NODE_ENV}{' '}
-        {process.env.name}
+        {process.env.name} {userName}
       </h1>
       <img src={reactPng} alt="react-logo-png" width="200px" height="200px" />
       <img src={reactSvg} alt="react-logo-svg" width="200px" height="200px" />
