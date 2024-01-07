@@ -11,3 +11,6 @@ catches erros as you when type-in the code -improves developer experience
 ---prettier---
 opinionated code formatter
 foramtting style guide that applies for all the files in the project
+
+---lint-staged husky------
+to ensure all files committed to git, don't have linting or formatting issues
