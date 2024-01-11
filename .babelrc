@@ -8,5 +8,14 @@
             }
         ],
         "@babel/preset-typescript"
-    ]
+    ],
+    "plugins": [
+        [
+            /** let's you use async/await features in a react app */
+          "@babel/plugin-transform-runtime",
+          {
+            "regenerator": true
+          }
+        ]
+      ]
 }

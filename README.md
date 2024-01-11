@@ -14,3 +14,10 @@ foramtting style guide that applies for all the files in the project
 
 ---lint-staged husky------
 to ensure all files committed to git, don't have linting or formatting issues
+
+
+---@babel/plugin-transform-runtime----
+ let's you use async/await features in a react app
+
+---copy-webpack-plugin---
+copy static assets into the build folder
